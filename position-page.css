@@ -1,0 +1,88 @@
+main {
+  font-size: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav {
+  background-color: grey;
+  width: 100%;
+  position: fixed;
+  height: 60px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.logo {
+   height:50px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-radius: 50%;
+   vertical-align: middle;
+   border: 2px solid black
+  
+}
+
+nav li::after {
+  content: "|";
+  margin-left: 5px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a:active {
+  color: white;
+}
+
+main {
+  padding-top: 90px;
+  min-width: 1000px;
+}
+
+body {
+  background: url(../Position-Exercise/images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.pet {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  width: 600px;
+  height: 300px;
+  border: 10px dotted green;
+}
+
+.space_cat, .space_dog {
+  position: absolute;
+  width: 200px;
+}
+
+.space_dog {
+  bottom: -125px;
+  right: -57px;
+}
+
+.space_cat {
+  top: -100px;
+  left: -100px;
+}
+
+
